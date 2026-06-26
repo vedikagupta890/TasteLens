@@ -12,7 +12,7 @@ CORS(app)
 
 
 # --- Load Dataset ---
-DATA_PATH = "C:/Users/Vedika/Documents/indian_food_recommendation_dataset_with_images.csv"
+DATA_PATH = "backend/indian_food_recommendation_dataset_with_images.csv"
 
 try:
     df = pd.read_csv(DATA_PATH)
