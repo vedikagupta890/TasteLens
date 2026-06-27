@@ -9,7 +9,7 @@ export default function DishPage() {
   useEffect(() => {
     async function fetchDish() {
       try {
-        const res = await fetch(`http://127.0.0.1:5000/dish/${id}`);
+        const res = await fetch(`https://tastelens-api-5s9c.onrender.com/dish/${id}`);
 
         if (!res.ok) {
           setError("Dish not found");

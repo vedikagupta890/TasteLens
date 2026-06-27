@@ -8,7 +8,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/home")
+    fetch("https://tastelens-api-5s9c.onrender.com/home")
       .then((res) => res.json())
       .then((data) => {
         if (data.featured_dishes) setDishes(data.featured_dishes);

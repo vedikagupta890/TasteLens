@@ -58,8 +58,8 @@ export default function Dashboard() {
     async function fetchData() {
       try {
         const [homeRes, recRes] = await Promise.all([
-          fetch("http://127.0.0.1:5000/home"),
-          fetch("http://127.0.0.1:5000/recommend", {
+          fetch("https://tastelens-api-5s9c.onrender.com/home"),
+          fetch("https://tastelens-api-5s9c.onrender.com/recommend", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ favorite_dish: user.favorite_dish }),

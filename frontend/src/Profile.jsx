@@ -23,7 +23,7 @@ export default function UserProfile() {
   useEffect(() => {
     console.log("🚀 Fetching recommendations for:", user.favorite_dish);
 
-    fetch("http://127.0.0.1:5000/recommend", {
+    fetch("https://tastelens-api-5s9c.onrender.com/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ favorite_dish: user.favorite_dish }),
