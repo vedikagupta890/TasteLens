@@ -239,7 +239,7 @@ The dataset is processed by the backend to generate personalized recommendations
 
 # 📸 Screenshots
 
-```
+
 Home Page:
 <img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/1f099d3b-9e04-44ce-9394-2b61a3490a1e"/>
 
@@ -254,7 +254,7 @@ Food Details:
 <img width="959" height="474" alt="image" src="https://github.com/user-attachments/assets/b97ceaf1-bfd2-4e10-a1b7-092a37f81599"/>
 
 
-```
+
 
 ---
 
