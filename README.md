@@ -6,6 +6,11 @@
 
 ⚙️ **Backend API:** https://tastelens-api-5s9c.onrender.com/
 
+
+https://github.com/user-attachments/assets/1e5715aa-a48e-4afc-a3b6-bdd6f7db3b3d
+
+
+
 ---
 
 ## 📖 Overview
@@ -16,19 +21,18 @@ The frontend is built using **React** and **Vite**, while the recommendation eng
 
 ---
 
-# ✨ Features
+## Features
 
-* 🍛 Personalized food recommendations
-* 🔍 Search and browse Indian dishes
-* 📊 Machine Learning based recommendation engine
-* 📱 Responsive and modern user interface
-* ⚡ Fast REST API built with Flask
-* 🌐 Fully deployed frontend and backend
-* 📂 Dataset-driven recommendation system
+* Personalized food recommendations based on user preferences.
+* Content-based recommendation engine using Scikit-learn.
+* Interactive and responsive React frontend.
+* RESTful Flask API for recommendation generation.
+* Dataset-driven recommendation workflow.
+* End-to-end cloud deployment using Render.
 
 ---
 
-# 🏗️ Project Architecture
+#  Project Architecture
 
 ```
                 User
@@ -49,7 +53,7 @@ The frontend is built using **React** and **Vite**, while the recommendation eng
 
 ---
 
-# 🧠 Recommendation System
+#  Recommendation System
 
 The recommendation engine is built using content-based filtering techniques.
 
@@ -65,61 +69,38 @@ The backend processes the dataset and returns the most relevant recommendations 
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ## Frontend
 
-* React.js
-* Vite
-* JavaScript
-* HTML5
-* CSS3
-* Tailwind CSS
-* React Router
+* **React.js** – Built the interactive and component-based user interface.
+* **Vite** – Fast build tool and development server for improved performance.
+* **JavaScript** – Implemented client-side application logic and API interactions.
+* **HTML5** – Structured the web application's content and layout.
+* **CSS3** – Styled the application for a clean and responsive design.
+* **Tailwind CSS** – Utility-first CSS framework used to create a modern and consistent UI.
+* **React Router** – Enabled client-side routing and seamless navigation between pages.
 
 ## Backend
 
-* Flask
-* Flask-CORS
-* Pandas
-* NumPy
-* Scikit-learn
+* **Flask** – Developed the RESTful API and handled backend request processing.
+* **Flask-CORS** – Enabled secure communication between the React frontend and Flask backend.
+* **Pandas** – Loaded, cleaned, and processed the food recommendation dataset.
+* **NumPy** – Performed numerical computations required for data processing.
+* **Scikit-learn** – Implemented the content-based recommendation engine using machine learning techniques.
 
 ## Deployment
 
-* Render (Frontend)
-* Render (Backend)
+* **Render** – Hosted both the frontend and backend, providing a publicly accessible web application.
 
 ## Version Control
 
-* Git
-* GitHub
+* **Git** – Managed source code, tracked changes, and maintained project history.
+* **GitHub** – Hosted the repository, enabled version control, and supported collaborative development and deployment.
 
 ---
 
-# 📂 Project Structure
-
-```
-TasteLens
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend
-│   ├── recommend.py
-│   ├── requirements.txt
-│   ├── dataset.csv
-│   └── ...
-│
-└── README.md
-```
-
----
-
-# 🚀 Getting Started
+#  Getting Started
 
 ## 1. Clone the Repository
 
@@ -222,7 +203,7 @@ https://tastelens-api-5s9c.onrender.com/
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 The recommendation engine uses a curated dataset of Indian food items containing information such as:
 
@@ -258,7 +239,7 @@ Food Details:
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 * User authentication
 * Personalized user profiles
