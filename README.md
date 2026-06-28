@@ -10,7 +10,12 @@
 https://github.com/user-attachments/assets/1e5715aa-a48e-4afc-a3b6-bdd6f7db3b3d
 
 
-
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Flask](https://img.shields.io/badge/Flask-3.1-black?logo=flask)
+![Python](https://img.shields.io/badge/Python-3-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-orange?logo=scikitlearn)
+![Render](https://img.shields.io/badge/Hosted_on-Render-46E3B7?logo=render)
+![License](https://img.shields.io/badge/License-MIT-green)
 ---
 
 ## 📖 Overview
