@@ -1,4 +1,4 @@
-# 🍽️ TasteLens – AI-Powered Personalized Food Recommendation System
+# 🍽️ TasteLens – Personalized Food Recommendation System
 
 > A full-stack food recommendation platform that suggests personalized Indian dishes using machine learning and an intuitive React-based interface.
 
@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/1e5715aa-a48e-4afc-a3b6-bdd6f7db3b3d
 
 ## 📖 Overview
 
-TasteLens is an AI-powered food recommendation system designed to provide personalized dish suggestions based on user preferences. The application combines machine learning techniques with a modern full-stack architecture to deliver an interactive and responsive user experience.
+TasteLens is a food recommendation system designed to provide personalized dish suggestions based on user preferences. The application combines machine learning techniques with a modern full-stack architecture to deliver an interactive and responsive user experience.
 
 The frontend is built using **React** and **Vite**, while the recommendation engine is implemented using **Flask**, **Pandas**, and **Scikit-learn**.
 
